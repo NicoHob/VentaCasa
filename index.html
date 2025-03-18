@@ -11,7 +11,7 @@
 	<br>
 	<br>
 	
-	<h1 style="padding-left: 5px; "style="text-decoration: underline; text-decoration-thickness: 3px;">
+	<h1 style="padding-left: 5px;" style="text-decoration: underline; text-decoration-thickness: 3px;">
 		<u>RAMBLA TOMÁS BERRETA</u>
 	</h1>
 	<br>
@@ -456,23 +456,11 @@
 		Formulario de Contacto
 	</h2>
     <form style="padding-left: 15px;"action="https://formsubmit.co/correo@example.com" method="POST" enctype="text/plain">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-
-        <label for="telefono">Teléfono:</label><br>
-        <input type="tel" id="telefono" name="telefono"><br><br>
-
-        <label for="celular">Celular:</label><br>
-        <input type="tel" id="celular" name="celular"><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="4" cols="40">Estoy interesado en esta propiedad</textarea><br><br>
-
-        <button type="submit">Enviar</button>
-    </form>
+        <input type="text" name="name" placeholder="Nombre" required>
+    	<input type="email" name="email" placeholder="Correo" required>
+    	<textarea name="message">Estoy interesado en esta propiedad</textarea>
+    	<button type="submit">Enviar</button>
+    	</form>
 	<br>
 	<br>
     <!-- Bootstrap JS -->
